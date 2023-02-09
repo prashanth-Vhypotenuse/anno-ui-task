@@ -1,0 +1,20 @@
+{
+  "teamDetails" : [
+    {
+      "name": "Tom Bills",
+      "designation": "Web Designer",
+      "image": "./assets/team/team-1.jpg"
+    },
+    {
+      "name": "Sara Adams",
+      "designation": "CEO / Founder",
+      "image": "./assets/team/team-2.jpg"
+    },
+    {
+      "name": "Enzo William",
+      "designation": "Photograper",
+      "image": "./assets/team/team-3.jpg"
+    }
+  ]
+}
+

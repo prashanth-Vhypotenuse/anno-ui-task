@@ -1,0 +1,30 @@
+{
+  "quickLinks" : [
+    "Engaging, purposeful, and creative.",
+    "Extroadinary life events.",
+    "Design your perfect event.",
+    "Connect your worlds.",
+    "Improving workplace productivity."
+  ],
+
+  "footerGallery" : [
+    {
+      "image": "./assets/footer/gallery-1.jpg"
+    },
+    {
+      "image": "./assets/footer/gallery-2.jpg"
+    },
+    {
+      "image": "./assets/footer/gallery-3.jpg"
+    },
+    {
+      "image": "./assets/footer/gallery-4.jpg"
+    },
+    {
+      "image": "./assets/footer/gallery-5.jpg"
+    },
+    {
+      "image": "./assets/footer/gallery-6.jpg"
+    }
+  ]
+}

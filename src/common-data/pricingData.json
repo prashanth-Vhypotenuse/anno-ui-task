@@ -1,0 +1,52 @@
+{
+  "pricingData" : [
+    {
+      "id": 1,
+      "tilte": "Personal",
+      "subTitle": "Basic and simple website.",
+      "price": "10",
+      "services": [
+        "Mobile-Optimized Website",
+        "Powerful Website Metrics",
+        "Free Custom Domain", 
+        "24/7 Customer Support", 
+        "Fully Integrated E-Commerce",
+        "Sell Unlimited Products & Accept Donations"
+      ],
+      "buttonText": "TRY IT NOW",
+      "featured": false
+    },
+    {
+      "id": 2,
+      "tilte": "Professional",
+      "subTitle": "Basic and simple website.",
+      "price": "16",
+      "services": [
+        "Mobile-Optimized Website",
+        "Powerful Website Metrics",
+        "Free Custom Domain", 
+        "24/7 Customer Support", 
+        "Fully Integrated E-Commerce",
+        "Sell Unlimited Products & Accept Donations"
+      ],
+      "buttonText": "TRY IT NOW",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "tilte": "Ultimate",
+      "subTitle": "Basic and simple website.",
+      "price": "29",
+      "services": [
+        "Mobile-Optimized Website",
+        "Powerful Website Metrics",
+        "Free Custom Domain", 
+        "24/7 Customer Support", 
+        "Fully Integrated E-Commerce",
+        "Sell Unlimited Products & Accept Donations"
+      ],
+      "buttonText": "TRY IT NOW",
+      "featured": false
+    }
+  ]
+}

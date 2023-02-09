@@ -1,38 +1,183 @@
+body {
+  background-color: #fafafa;
+}
+
+.bg-voilet {
+  background-color: #24182e;
+}
+
+.bg-pink {
+  background-color: #f5325c;
+}
+
+.color-pink {
+  color: #f5325c;
+}
+
+.border-pink {
+  border-color: #f5325c;
+}
+
+.skin-overlay {
+  background-color: rgba(245, 50, 92, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  -o-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #ddd;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
 .App {
+  width: 800px;
+  margin: 30px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.featured:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-right: 9px solid #fff;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+h2[data-backfont] {
+  position: relative;
+}
+
+h2[data-backfont]:before {
+  content: attr(data-backfont);
+  font-size: 4.5em;
+  opacity: 0.04;
+  position: absolute;
+  top: 0.2em;
+  left: -0.15em;
+  text-align: center;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+@media screen and (min-width: 280px) {
+  h2[data-backfont]:before {
+    font-size: 2em;
+  }
+}
+@media screen and (min-width: 480px) {
+  h2[data-backfont]:before {
+    font-size: 3em;
+    left: -0.25em;
+  }
+}
+
+@media screen and (min-width: 975px) {
+  h2[data-backfont]:before {
+    font-size: 4em;
+  }
+}
+
+.search-bg {
+  background-color: rgba(20, 30, 48, 0.99);
+}
+
+.st0 {
+  fill: none;
+  stroke: #f5325c;
+  stroke-width: 2;
+}
+
+/* slick slider */
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+.slick-dotted.slick-slider {
+  margin-bottom: 30px;
+}
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slick-dots li {
+  display: inline-block;
+  margin: 0 4px;
+}
+.slick-slide:focus {
+  outline: none;
+}
+.slick-dots li button {
+  font-size: 0;
+  width: 12px;
+  height: 6px;
+  padding: 0px;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  background: rgba(36, 24, 46, 0.9);
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blog-carousel .slick-dots li button {
+  font-size: 0;
+  width: 12px;
+  height: 6px;
+  padding: 0px;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  background: rgba(230, 248, 249, 0.9);
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-content-slider .slick-dots li.slick-active button {
+  background-color: #fff;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slick-dots li.slick-active button,
+.blog-carousel .slick-dots li.slick-active button {
+  width: 40px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  height: 6px;
+  background-color: #f5325c;
 }

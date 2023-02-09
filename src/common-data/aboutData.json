@@ -1,0 +1,28 @@
+{ 
+  "companyActivities" : [
+    {
+      "id": 1,
+      "icon": "icofont-light-bulb",
+      "num": 128,
+      "actvityName": "Satisfied Clients"
+    },
+    {
+      "id": 2,
+      "icon": "icofont-hour-glass",
+      "num": 36,
+      "actvityName": "Projects a Year"
+    },
+    {
+      "id": 3,
+      "icon": "icofont-glass",
+      "num": 662,
+      "actvityName": "Blog Posts"
+    },
+    {
+      "id": 4,
+      "icon": "icofont-air-balloon",
+      "num": 334,
+      "actvityName": "Support Tickets"
+    }
+  ]
+}
