@@ -1,0 +1,63 @@
+{
+  "portfolioTabs" : ["All", "Branding", "Creative Design", "Web Design", "Stationery", "Photograpy"],
+
+  "portfolioData" : [
+    {
+      "type": ["Branding"],
+      "image": "./assets/portfolio/1.jpg",
+      "brand": "Creative Designs"
+    },
+    {
+      "type": ["Branding", "Creative Design"],
+      "image": "./assets/portfolio/2.jpg",
+      "brand": "Cup Design"
+    },
+    {
+      "type": ["Branding", "Creative Design"],
+      "image": "./assets/portfolio/3.jpg",
+      "brand": "Poha House"
+    },
+    {
+      "type": ["Web Design", "Photograpy"],
+      "image": "./assets/portfolio/4.jpg",
+      "brand": "Poha Houses"
+    },
+    {
+      "type": ["Stationery", "Web Design"],
+      "image": "./assets/portfolio/5.jpg",
+      "brand": "Creative Design"
+    },
+    {
+      "type": ["Branding"],
+      "image": "./assets/portfolio/6.jpg",
+      "brand": "Poha Bussines Card"
+    },
+    {
+      "type": ["Stationery", "Web Design"],
+      "image": "./assets/portfolio/7.jpg",
+      "brand": "Nobel Ones"
+    },
+    {
+      "type": ["Photograpy", "Stationery"],
+      "image": "./assets/portfolio/8.jpg",
+      "brand": "Poha Bussines"
+    }
+  ],
+
+  "portfolioSlider" : [ {
+    "name": "David Levine",
+    "image": "./assets/team/avatar-1.jpg",
+    "message": "Very much satisfied with the service. Delivered on time and responded to request for modifications within few hours. I recommend Sloganshub for anyone looking for smart business."
+  },
+  {
+    "name": "Michael Kyle",
+    "image": "./assets/team/avatar-2.jpg",
+    "message": "I’m very happy with the results! They went above and beyond for me and that is always appreciated! I would highly recommend SH to anybody!"
+  },
+  {
+    "name": "Mellissa Christine",
+    "image": "./assets/team/avatar-3.jpg",
+    "message": "Great work I got a lot more than what I ordered, they are very legítimas and catchy. I went for one of them for my 'brand' b't is always better to have more options."
+  }
+]
+}

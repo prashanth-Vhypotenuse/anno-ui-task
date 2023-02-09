@@ -1,0 +1,51 @@
+{ "navbarLinkData" : [
+    {
+      "tab": "Concepts",
+      "link": "#concepts",
+      "path": "/",
+      "subTab": [
+        "Main Demo", "Home Creative Agency", "Home Digital","Home Minimal Agency","Home Business","Home Studio",
+        "Home Startup","Home Marketing","Home Parallax","Home Image Background","Home Video Background","Home Kenburn"
+      ]
+    },
+    {
+      "link": "#features",
+      "tab":"Features",
+      "path": "/features"
+    },
+    {
+      "link": "#about",
+      "tab":"About",
+      "path": "/about"
+    },
+    {
+      "link": "#portfolio",
+      "tab":"Portfolio",
+      "path": "/portfolio"
+    },
+    {
+      "link": "#team",
+      "tab": "Team",
+      "path": "/team"
+    },
+    {
+      "link": "#pricing",
+      "tab":"Pricing",
+      "path": "/pricing"
+    },
+    {
+      "link": "#contact",
+      "tab":"Contact",
+      "path": "/contact"
+    }
+  ],
+
+  "socialIcons" : [
+    "icofont-facebook",
+    "icofont-twitter",
+    "icofont-behance",
+    "icofont-dribble",
+    "icofont-linkedin"
+  ]
+
+}
